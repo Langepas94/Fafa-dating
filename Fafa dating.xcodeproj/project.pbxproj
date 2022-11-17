@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447ED0732926824D0034B4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0722926824D0034B4CA /* AppDelegate.swift */; };
+		447ED0752926824D0034B4CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0742926824D0034B4CA /* SceneDelegate.swift */; };
+		447ED0772926824D0034B4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0762926824D0034B4CA /* ViewController.swift */; };
+		447ED07A2926824D0034B4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447ED0782926824D0034B4CA /* Main.storyboard */; };
+		447ED07C2926824F0034B4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447ED07B2926824F0034B4CA /* Assets.xcassets */; };
+		447ED07F2926824F0034B4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */; };
+		447ED08A2926824F0034B4CA /* Fafa_datingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0892926824F0034B4CA /* Fafa_datingTests.swift */; };
+		447ED0942926824F0034B4CA /* Fafa_datingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0932926824F0034B4CA /* Fafa_datingUITests.swift */; };
+		447ED0962926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447ED0862926824F0034B4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447ED0672926824D0034B4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447ED06E2926824D0034B4CA;
+			remoteInfo = "Fafa dating";
+		};
+		447ED0902926824F0034B4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447ED0672926824D0034B4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447ED06E2926824D0034B4CA;
+			remoteInfo = "Fafa dating";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447ED06F2926824D0034B4CA /* Fafa dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fafa dating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447ED0722926824D0034B4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		447ED0742926824D0034B4CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		447ED0762926824D0034B4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		447ED0792926824D0034B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		447ED07B2926824F0034B4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447ED07E2926824F0034B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		447ED0802926824F0034B4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447ED0852926824F0034B4CA /* Fafa datingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fafa datingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447ED0892926824F0034B4CA /* Fafa_datingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fafa_datingTests.swift; sourceTree = "<group>"; };
+		447ED08F2926824F0034B4CA /* Fafa datingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fafa datingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447ED0932926824F0034B4CA /* Fafa_datingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fafa_datingUITests.swift; sourceTree = "<group>"; };
+		447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fafa_datingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447ED06C2926824D0034B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED0822926824F0034B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED08C2926824F0034B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447ED0662926824D0034B4CA = {
+			isa = PBXGroup;
+			children = (
+				447ED0712926824D0034B4CA /* Fafa dating */,
+				447ED0882926824F0034B4CA /* Fafa datingTests */,
+				447ED0922926824F0034B4CA /* Fafa datingUITests */,
+				447ED0702926824D0034B4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447ED0702926824D0034B4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447ED06F2926824D0034B4CA /* Fafa dating.app */,
+				447ED0852926824F0034B4CA /* Fafa datingTests.xctest */,
+				447ED08F2926824F0034B4CA /* Fafa datingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447ED0712926824D0034B4CA /* Fafa dating */ = {
+			isa = PBXGroup;
+			children = (
+				447ED0722926824D0034B4CA /* AppDelegate.swift */,
+				447ED0742926824D0034B4CA /* SceneDelegate.swift */,
+				447ED0762926824D0034B4CA /* ViewController.swift */,
+				447ED0782926824D0034B4CA /* Main.storyboard */,
+				447ED07B2926824F0034B4CA /* Assets.xcassets */,
+				447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */,
+				447ED0802926824F0034B4CA /* Info.plist */,
+			);
+			path = "Fafa dating";
+			sourceTree = "<group>";
+		};
+		447ED0882926824F0034B4CA /* Fafa datingTests */ = {
+			isa = PBXGroup;
+			children = (
+				447ED0892926824F0034B4CA /* Fafa_datingTests.swift */,
+			);
+			path = "Fafa datingTests";
+			sourceTree = "<group>";
+		};
+		447ED0922926824F0034B4CA /* Fafa datingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				447ED0932926824F0034B4CA /* Fafa_datingUITests.swift */,
+				447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */,
+			);
+			path = "Fafa datingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447ED06E2926824D0034B4CA /* Fafa dating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447ED0992926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa dating" */;
+			buildPhases = (
+				447ED06B2926824D0034B4CA /* Sources */,
+				447ED06C2926824D0034B4CA /* Frameworks */,
+				447ED06D2926824D0034B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fafa dating";
+			productName = "Fafa dating";
+			productReference = 447ED06F2926824D0034B4CA /* Fafa dating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		447ED0842926824F0034B4CA /* Fafa datingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447ED09C2926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa datingTests" */;
+			buildPhases = (
+				447ED0812926824F0034B4CA /* Sources */,
+				447ED0822926824F0034B4CA /* Frameworks */,
+				447ED0832926824F0034B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447ED0872926824F0034B4CA /* PBXTargetDependency */,
+			);
+			name = "Fafa datingTests";
+			productName = "Fafa datingTests";
+			productReference = 447ED0852926824F0034B4CA /* Fafa datingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		447ED08E2926824F0034B4CA /* Fafa datingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447ED09F2926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa datingUITests" */;
+			buildPhases = (
+				447ED08B2926824F0034B4CA /* Sources */,
+				447ED08C2926824F0034B4CA /* Frameworks */,
+				447ED08D2926824F0034B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447ED0912926824F0034B4CA /* PBXTargetDependency */,
+			);
+			name = "Fafa datingUITests";
+			productName = "Fafa datingUITests";
+			productReference = 447ED08F2926824F0034B4CA /* Fafa datingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447ED0672926824D0034B4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					447ED06E2926824D0034B4CA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					447ED0842926824F0034B4CA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 447ED06E2926824D0034B4CA;
+					};
+					447ED08E2926824F0034B4CA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 447ED06E2926824D0034B4CA;
+					};
+				};
+			};
+			buildConfigurationList = 447ED06A2926824D0034B4CA /* Build configuration list for PBXProject "Fafa dating" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 447ED0662926824D0034B4CA;
+			productRefGroup = 447ED0702926824D0034B4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447ED06E2926824D0034B4CA /* Fafa dating */,
+				447ED0842926824F0034B4CA /* Fafa datingTests */,
+				447ED08E2926824F0034B4CA /* Fafa datingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447ED06D2926824D0034B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447ED07F2926824F0034B4CA /* LaunchScreen.storyboard in Resources */,
+				447ED07C2926824F0034B4CA /* Assets.xcassets in Resources */,
+				447ED07A2926824D0034B4CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED0832926824F0034B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED08D2926824F0034B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447ED06B2926824D0034B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447ED0772926824D0034B4CA /* ViewController.swift in Sources */,
+				447ED0732926824D0034B4CA /* AppDelegate.swift in Sources */,
+				447ED0752926824D0034B4CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED0812926824F0034B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447ED08A2926824F0034B4CA /* Fafa_datingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447ED08B2926824F0034B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447ED0942926824F0034B4CA /* Fafa_datingUITests.swift in Sources */,
+				447ED0962926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447ED0872926824F0034B4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447ED06E2926824D0034B4CA /* Fafa dating */;
+			targetProxy = 447ED0862926824F0034B4CA /* PBXContainerItemProxy */;
+		};
+		447ED0912926824F0034B4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447ED06E2926824D0034B4CA /* Fafa dating */;
+			targetProxy = 447ED0902926824F0034B4CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		447ED0782926824D0034B4CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447ED0792926824D0034B4CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447ED07E2926824F0034B4CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		447ED0972926824F0034B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		447ED0982926824F0034B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447ED09A2926824F0034B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fafa dating/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-dating";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		447ED09B2926824F0034B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fafa dating/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-dating";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		447ED09D2926824F0034B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-datingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fafa dating.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fafa dating";
+			};
+			name = Debug;
+		};
+		447ED09E2926824F0034B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-datingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fafa dating.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fafa dating";
+			};
+			name = Release;
+		};
+		447ED0A02926824F0034B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-datingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fafa dating";
+			};
+			name = Debug;
+		};
+		447ED0A12926824F0034B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7D95C8V9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exidna.art.Fafa-datingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fafa dating";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447ED06A2926824D0034B4CA /* Build configuration list for PBXProject "Fafa dating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447ED0972926824F0034B4CA /* Debug */,
+				447ED0982926824F0034B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447ED0992926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa dating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447ED09A2926824F0034B4CA /* Debug */,
+				447ED09B2926824F0034B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447ED09C2926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa datingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447ED09D2926824F0034B4CA /* Debug */,
+				447ED09E2926824F0034B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447ED09F2926824F0034B4CA /* Build configuration list for PBXNativeTarget "Fafa datingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447ED0A02926824F0034B4CA /* Debug */,
+				447ED0A12926824F0034B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447ED0672926824D0034B4CA /* Project object */;
+}
