@@ -22,6 +22,8 @@
 		447ED0AB29278BC20034B4CA /* UIimageview + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0AA29278BC20034B4CA /* UIimageview + extension.swift */; };
 		447ED0AF292794940034B4CA /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0AE292794940034B4CA /* ButtonFormView.swift */; };
 		447ED0B1292798870034B4CA /* StackView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0B0292798870034B4CA /* StackView + extension.swift */; };
+		447ED0B32927A18D0034B4CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0B22927A18D0034B4CA /* SignUpViewController.swift */; };
+		447ED0B52927A3BA0034B4CA /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0B42927A3BA0034B4CA /* OneLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		447ED0AA29278BC20034B4CA /* UIimageview + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimageview + extension.swift"; sourceTree = "<group>"; };
 		447ED0AE292794940034B4CA /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		447ED0B0292798870034B4CA /* StackView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + extension.swift"; sourceTree = "<group>"; };
+		447ED0B22927A18D0034B4CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		447ED0B42927A3BA0034B4CA /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				447ED0722926824D0034B4CA /* AppDelegate.swift */,
 				447ED0742926824D0034B4CA /* SceneDelegate.swift */,
 				447ED0762926824D0034B4CA /* AuthViewController.swift */,
+				447ED0B22927A18D0034B4CA /* SignUpViewController.swift */,
 				447ED07B2926824F0034B4CA /* Assets.xcassets */,
 				447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */,
 				447ED0802926824F0034B4CA /* Info.plist */,
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				447ED0AE292794940034B4CA /* ButtonFormView.swift */,
+				447ED0B42927A3BA0034B4CA /* OneLineTextField.swift */,
 				447ED0AC292793740034B4CA /* UIkit */,
 			);
 			path = Extensions;
@@ -291,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447ED0B52927A3BA0034B4CA /* OneLineTextField.swift in Sources */,
+				447ED0B32927A18D0034B4CA /* SignUpViewController.swift in Sources */,
 				447ED0A5292788EB0034B4CA /* UIfont + Extension.swift in Sources */,
 				447ED0A72927896C0034B4CA /* UIcolor + extension.swift in Sources */,
 				447ED0772926824D0034B4CA /* AuthViewController.swift in Sources */,
