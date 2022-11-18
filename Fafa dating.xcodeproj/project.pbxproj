@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		447ED0732926824D0034B4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0722926824D0034B4CA /* AppDelegate.swift */; };
 		447ED0752926824D0034B4CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0742926824D0034B4CA /* SceneDelegate.swift */; };
-		447ED0772926824D0034B4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0762926824D0034B4CA /* ViewController.swift */; };
-		447ED07A2926824D0034B4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447ED0782926824D0034B4CA /* Main.storyboard */; };
+		447ED0772926824D0034B4CA /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0762926824D0034B4CA /* AuthViewController.swift */; };
 		447ED07C2926824F0034B4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447ED07B2926824F0034B4CA /* Assets.xcassets */; };
 		447ED07F2926824F0034B4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */; };
 		447ED08A2926824F0034B4CA /* Fafa_datingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0892926824F0034B4CA /* Fafa_datingTests.swift */; };
 		447ED0942926824F0034B4CA /* Fafa_datingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0932926824F0034B4CA /* Fafa_datingUITests.swift */; };
 		447ED0962926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */; };
+		447ED0A3292786F80034B4CA /* UIbutton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0A2292786F80034B4CA /* UIbutton + Extension.swift */; };
+		447ED0A5292788EB0034B4CA /* UIfont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0A4292788EB0034B4CA /* UIfont + Extension.swift */; };
+		447ED0A72927896C0034B4CA /* UIcolor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0A62927896C0034B4CA /* UIcolor + extension.swift */; };
+		447ED0A929278B3B0034B4CA /* UIlabel + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0A829278B3B0034B4CA /* UIlabel + extension.swift */; };
+		447ED0AB29278BC20034B4CA /* UIimageview + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0AA29278BC20034B4CA /* UIimageview + extension.swift */; };
+		447ED0AF292794940034B4CA /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0AE292794940034B4CA /* ButtonFormView.swift */; };
+		447ED0B1292798870034B4CA /* StackView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ED0B0292798870034B4CA /* StackView + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,7 @@
 		447ED06F2926824D0034B4CA /* Fafa dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fafa dating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		447ED0722926824D0034B4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		447ED0742926824D0034B4CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		447ED0762926824D0034B4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		447ED0792926824D0034B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		447ED0762926824D0034B4CA /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		447ED07B2926824F0034B4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447ED07E2926824F0034B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447ED0802926824F0034B4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		447ED08F2926824F0034B4CA /* Fafa datingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fafa datingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		447ED0932926824F0034B4CA /* Fafa_datingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fafa_datingUITests.swift; sourceTree = "<group>"; };
 		447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fafa_datingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		447ED0A2292786F80034B4CA /* UIbutton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIbutton + Extension.swift"; sourceTree = "<group>"; };
+		447ED0A4292788EB0034B4CA /* UIfont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIfont + Extension.swift"; sourceTree = "<group>"; };
+		447ED0A62927896C0034B4CA /* UIcolor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + extension.swift"; sourceTree = "<group>"; };
+		447ED0A829278B3B0034B4CA /* UIlabel + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIlabel + extension.swift"; sourceTree = "<group>"; };
+		447ED0AA29278BC20034B4CA /* UIimageview + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimageview + extension.swift"; sourceTree = "<group>"; };
+		447ED0AE292794940034B4CA /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		447ED0B0292798870034B4CA /* StackView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,11 @@
 			children = (
 				447ED0722926824D0034B4CA /* AppDelegate.swift */,
 				447ED0742926824D0034B4CA /* SceneDelegate.swift */,
-				447ED0762926824D0034B4CA /* ViewController.swift */,
-				447ED0782926824D0034B4CA /* Main.storyboard */,
+				447ED0762926824D0034B4CA /* AuthViewController.swift */,
 				447ED07B2926824F0034B4CA /* Assets.xcassets */,
 				447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */,
 				447ED0802926824F0034B4CA /* Info.plist */,
+				447ED0AD292793830034B4CA /* Extensions */,
 			);
 			path = "Fafa dating";
 			sourceTree = "<group>";
@@ -125,6 +137,28 @@
 				447ED0952926824F0034B4CA /* Fafa_datingUITestsLaunchTests.swift */,
 			);
 			path = "Fafa datingUITests";
+			sourceTree = "<group>";
+		};
+		447ED0AC292793740034B4CA /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				447ED0A2292786F80034B4CA /* UIbutton + Extension.swift */,
+				447ED0A4292788EB0034B4CA /* UIfont + Extension.swift */,
+				447ED0A62927896C0034B4CA /* UIcolor + extension.swift */,
+				447ED0A829278B3B0034B4CA /* UIlabel + extension.swift */,
+				447ED0AA29278BC20034B4CA /* UIimageview + extension.swift */,
+				447ED0B0292798870034B4CA /* StackView + extension.swift */,
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		447ED0AD292793830034B4CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				447ED0AE292794940034B4CA /* ButtonFormView.swift */,
+				447ED0AC292793740034B4CA /* UIkit */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +267,6 @@
 			files = (
 				447ED07F2926824F0034B4CA /* LaunchScreen.storyboard in Resources */,
 				447ED07C2926824F0034B4CA /* Assets.xcassets in Resources */,
-				447ED07A2926824D0034B4CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447ED0772926824D0034B4CA /* ViewController.swift in Sources */,
+				447ED0A5292788EB0034B4CA /* UIfont + Extension.swift in Sources */,
+				447ED0A72927896C0034B4CA /* UIcolor + extension.swift in Sources */,
+				447ED0772926824D0034B4CA /* AuthViewController.swift in Sources */,
+				447ED0AF292794940034B4CA /* ButtonFormView.swift in Sources */,
 				447ED0732926824D0034B4CA /* AppDelegate.swift in Sources */,
+				447ED0AB29278BC20034B4CA /* UIimageview + extension.swift in Sources */,
 				447ED0752926824D0034B4CA /* SceneDelegate.swift in Sources */,
+				447ED0A3292786F80034B4CA /* UIbutton + Extension.swift in Sources */,
+				447ED0A929278B3B0034B4CA /* UIlabel + extension.swift in Sources */,
+				447ED0B1292798870034B4CA /* StackView + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		447ED0782926824D0034B4CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				447ED0792926824D0034B4CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		447ED07D2926824F0034B4CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +474,6 @@
 				INFOPLIST_FILE = "Fafa dating/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +501,6 @@
 				INFOPLIST_FILE = "Fafa dating/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
